@@ -8,7 +8,7 @@
         "templated": true
       }
     ],
-    "wp:description": { "href": "/weapons/pistol/description" }
+    "wp:description": { "href": "/weapons/pistol/description" },
     "wp:profiles": [
       { "href": "/weapons/pistol/profile/bs" },
       { "href": "/weapons/pistol/profile/cc" }

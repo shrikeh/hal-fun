@@ -1,5 +1,14 @@
 {
   "_links": {
-
+    "curies": [
+      {
+        "name": "pr",
+        "href": "https://example.com/docs/weapons/profiles/{rel}",
+        "templated": true
+      }
+    ],
+    "self": { "href": "/weapons/missile-launcher/profiles/" },
+    "pr:blast": { "href": "/weapons/missile-launcher/profiles/blast" },
+    "pr:anti-tank": { "href": "/weapons/missile-launcher/profiles/anti-tank" }
   }
 }

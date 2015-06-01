@@ -6,13 +6,28 @@
         "name": "wp",
         "href": "https://example.com/docs/weapons/{rel}",
         "templated": true
+      },
+      {
+        "name": "pr",
+        "href": "https://example.com/docs/weapons/profiles/{rel}",
+        "templated": true
       }
     ],
     "wp:description": { "href": "/weapons/rifle/description" }
   },
+  "_embedded": {
+    "pr:bs": {
+      "_links": {
+        "self": { "href": "/weapons/rifle/profile/bs" },
+        "ammo": [
+          { "href": "/ammo/normal" }
+        ],
+      },
+      "damage": 13,
+      "burst": 3,
+      "cc": false
+    }
+  },
   "name": "Rifle",
-  "type": "weapon",
-  "profiles": [
-
-  ]
+  "type": "weapon"
 }
