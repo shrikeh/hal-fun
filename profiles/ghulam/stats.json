@@ -1,0 +1,18 @@
+{
+  "_links": [
+    "self": { "href": "/units/ghulam/stats" },
+    "profile": { "href": "/units/ghulam" },
+  ],
+  "mov": {
+    "first": 4,
+    "second": 4
+  },
+  "cc": 13,
+  "bs": 11,
+  "ph": 10,
+  "wip": 14,
+  "arm": 1,
+  "bts": 0,
+  "w": 1,
+  "s": 2
+}

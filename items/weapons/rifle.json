@@ -1,0 +1,16 @@
+{
+  "_links": {
+    "self": { "href": "/weapons/rifle" },
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://example.com/docs/weapons/{rel}",
+        "templated": true
+      }
+    ],
+    "wp:description": { "href": "/weapons/rifle/description" }
+    "wp:profiles": [
+      { "href": "/weapons/rifle/profile/bs" }
+    ]
+  }
+}

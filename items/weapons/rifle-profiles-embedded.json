@@ -1,0 +1,58 @@
+{
+  "_links": {
+    "self": { "href": "/weapons/rifle" },
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://example.com/docs/weapons/{rel}",
+        "templated": true
+      }
+    ],
+    "wp:description": { "href": "/weapons/rifle/description" }
+  },
+  "name": "Rifle",
+  "type": "weapon",
+  "profiles": [
+
+  ],
+
+
+
+
+    {
+    "ranges": [
+      {
+        "name": "short",
+        "start": 0,
+        "end": 8,
+        "mod": 0
+      },
+      {
+        "name": "medium",
+        "start": 8,
+        "end": 16,
+        "mod": 3
+      },
+      {
+        "name": "long",
+        "start": 16,
+        "end": 32,
+        "mod": -3
+      },
+      {
+        "name": "max",
+        "start": 32,
+        "end": 48,
+        "mod": -6
+      }
+    ],
+    "ammo": [
+      {
+        "type": "normal"
+      }
+    ],
+    "damage": 13,
+    "burst": 3
+  }
+  ]
+}

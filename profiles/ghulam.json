@@ -1,0 +1,35 @@
+{
+  "_links": {
+    "self": { "href": "/units/ghulam" },
+    "curies": [
+      {
+        "name": "tr",
+        "href": "https://example.com/docs/units/traits/{rel}",
+        "templated": true
+      },
+      {
+        "name": "unit",
+        "href": "https://example.com/docs/unit/{rel}"
+        "templated": true
+      },
+      {
+        "name": "it",
+        "href": "https://example.com/docs/items/{rel}",
+        "templated": true
+      }
+    ],
+    "tr:class": [{ "href": "/units/classification/line-troops" }],
+    "tr:type": [{ "href": "/units/type/light-infantry" }],
+    "tr:training": [{ "href": "/units/training/regular" }],
+    "tr:cube": [{ "href": "/units/cube/1.0" } ],
+    "it:weapons:bs": [{ "href": "/weapons/rifle+light_shotgun" }],
+    "it:weapons:cc": [
+      { "href": "/weapons/pistol" },
+      { "href": "/weapons/knife" },
+    ],
+    "unit:description": [{ "href": "/units/ghulam/description" }],
+    "unit:stats": [{ "href": "/units/ghulam/stats" }]
+  },
+  "singular": "Ghulam",
+  "isc": "Ghulam Infantry"
+}

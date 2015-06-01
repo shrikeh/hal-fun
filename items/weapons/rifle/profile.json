@@ -1,0 +1,7 @@
+{
+  "_links": {
+    "self": { "href": "/weapons/rifle/profile" },
+    "weapon": { "href": "/weapons/rifle" },
+
+  }
+}
