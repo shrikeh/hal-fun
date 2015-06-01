@@ -1,7 +1,12 @@
 {
   "_links": {
-    "self": { "href": "/weapons/rifle/profile" },
+    "self": { "href": "/weapons/rifle/profile/bs" },
     "weapon": { "href": "/weapons/rifle" },
-
-  }
+    "ammo": [
+      { "href": "/ammo/normal" }
+    ],
+  },
+  "damage": 13,
+  "burst": 3,
+  "cc": false
 }

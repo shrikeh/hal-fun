@@ -1,0 +1,52 @@
+{
+  "_links": {
+    "curies": [
+      {
+        "name": "rn",
+        "href": "https://example.com/docs/weapons/ranges/{rel}",
+        "templated": true
+      }
+    ],
+    "self": { "href": "/weapons/rifle/profile/bs/ranges" },
+    "profile": { "href": "/weapons/rifle/profile/bs" },
+    "rn:find": {
+      "href": "/weapons/rifle/profile/bs/ranges{?range}",
+      "templated": true
+    }
+  },
+  "_embedded": {
+    "rn:short": {
+      "_links": {
+        "self": { "href": "/weapons/rifle/profile/bs/ranges?range=short" }
+      },
+      "start": 0,
+      "end": 8,
+      "mod": 0
+    },
+    "rn:medium": {
+      "_links": {
+        "self": { "href": "/weapons/rifle/profile/bs/ranges?range=medium" }
+      },
+      "start": 8,
+      "end": 16,
+      "mod": 3
+    },
+    "rn:long": {
+      "_links": {
+        "self": { "href": "/weapons/rifle/profile/bs/ranges?range=long" }
+      },
+      "start": 16,
+      "end": 32,
+      "mod": -3
+    },
+    "rn:max": {
+      "_links": {
+        "self": { "href": "/weapons/rifle/profile/bs/ranges?range=max" }
+      },
+      "start": 32,
+      "end": 48,
+      "mod": -6
+    }
+  }
+
+}

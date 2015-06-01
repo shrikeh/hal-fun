@@ -1,0 +1,9 @@
+{
+  "_links": {
+    "self": { "href": "/weapons/rifle/profile/bs/ranges?range=short" }
+    "ranges": { "href": "/weapons/rifle/profile/bs/ranges" }
+  }
+  "start": 0,
+  "end": 8,
+  "mod": 0
+}

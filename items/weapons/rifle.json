@@ -10,7 +10,7 @@
     ],
     "wp:description": { "href": "/weapons/rifle/description" }
     "wp:profiles": [
-      { "href": "/weapons/rifle/profile/bs" }
+      { "href": "/weapons/rifle/profiles{?profile}" }
     ]
   }
 }
